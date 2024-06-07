@@ -1,18 +1,91 @@
 .nav-top,
 nav{
     display: flex;
+    align-items: center;
     width: 100%;
+    padding: 0.8rem;
     justify-content: space-around;
     font-family: "Inter", sans-serif;
 }
 
 .nav-top{
     background-color: #0152A8;
-    padding: 0.8rem;
     color: #FFF;
 }
 
 .nav-top .numbers{
     display: flex;
     gap: 4rem;
+}
+
+.nav-top .numbers p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .nav-top .numbers p .icon{
+    background-color: #095FBA;
+    padding: 1rem;
+    border-radius: 100%;
+} */
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav .nav-itens{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+nav .nav-itens li a{
+    font-size: 1.1rem;
+    color: #000;
+   
+}
+
+nav .nav-itens li a:hover{
+    color: #0152A8;
+    padding: 1rem 0;
+    border-bottom: solid 2px #0152A8;
+}
+
+nav .call-action{
+    color: #000;
+    background-color: #0FE3AF;
+    padding: 1rem;
+}
+
+nav .call-action:hover{
+    background-color: #bedfd8;
+    transition: 0.5s;
+}
+
+nav .call-action:active{
+    background-color: #b8d1cc;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 860px) {
+    nav{
+        justify-content: space-between;
+    }
+    nav .nav-itens{
+        display: none;
+    }
+
+    nav .call-action{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: initial;
+    }
 }

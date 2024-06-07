@@ -4,10 +4,10 @@ import NavTop from '../components/NavBar/NavTop'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <NavTop/>
       <NavBar/>
-    </div>
+    </>
   )
 }
 

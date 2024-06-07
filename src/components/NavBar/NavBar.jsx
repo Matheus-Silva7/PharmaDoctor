@@ -1,7 +1,8 @@
 import React from "react";
 import iconPharma from "/icon-pharma.svg";
 import "./NavBarStyles.css";
-
+import { Link } from "react-router-dom";
+import { CiMenuFries } from "react-icons/ci";
 
 const NavBar = () => {
   return (
@@ -10,14 +11,17 @@ const NavBar = () => {
         <img src={iconPharma} alt="icon pharma" />
         <p>Pharma</p>
       </div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Team</li>
-        <li>Contact</li>
+      <ul className="nav-itens">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/services">services</Link></li>
+        <li><Link to="/team">Team</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
-    <a href="">Appointment</a>
+      <a href="" className="call-action">Appointment</a>
+      <div className="menu-mobile">
+        <CiMenuFries size={30} />
+      </div>
     </nav>
   );
 };

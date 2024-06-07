@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import NavTop from "../components/NavBar/NavTop";
+import NavBar from "../components/NavBar/NavBar";
 
 const About = () => {
   return (
-    <div>
-      about
-    </div>
-  )
-}
+    <>
+      <NavTop />
+      <NavBar />
+    </>
+  );
+};
 
-export default About
+export default About;
