@@ -1,14 +1,14 @@
 import "./BannerStyles.css";
-import BannerMain from "../../assets/banner-main.jpg"
+import imgBanner from "../../assets/banners/banner-main.jpg"
 
 
 import React from 'react'
 import ButtonMain from "../Buttons/ButtonMain";
 
-const Banner = () => {
+const BannerMain = () => {
   return (
     <section id="banner" className="banner-container">
-        <img src={BannerMain} className="banner-img" alt="banner pharma doctor" />
+        <img src={imgBanner} className="banner-img" alt="banner pharma doctor" />
         <div className="content">
             <p className="p-emphasis">MEDICAL PROFESSIONALS</p>
             <h1 className="title">Makes Your Health Better Will Makes Us Better</h1>
@@ -19,4 +19,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default BannerMain
