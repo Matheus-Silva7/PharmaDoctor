@@ -73,6 +73,14 @@ nav .call-action:active {
         justify-content: space-between;
     }
 
+    .nav-top p{
+        font-size: 0.8rem;
+    }
+
+    .nav-top .numbers{
+        gap: 1rem;
+    }
+
     nav .nav-itens {
         flex-direction: column;
         gap: 3rem;
@@ -85,6 +93,7 @@ nav .call-action:active {
         width: 85vw;
         background-color: #F1F1F1;
         transition: 0.5s;
+        z-index: 2;
     }
 
     nav .nav-itens.active {
@@ -101,7 +110,24 @@ nav .call-action:active {
 
     .menu-mobile {
         display: initial;
-        z-index: 1;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-top{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.2rem;
+    }
+
+    .nav-top p{
+        font-size: 0.7rem;
+    }
+
+    nav .nav-itens li a{
+        font-size: 1.5rem;
     }
 }
 
