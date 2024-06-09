@@ -3,7 +3,8 @@ import imgBanner from "../../assets/banners/banner-main.jpg"
 
 
 import React from 'react'
-import ButtonMain from "../Buttons/ButtonMain";
+import ButtonMain from "../Reutilizable/ButtonMain";
+
 
 const BannerMain = () => {
   return (

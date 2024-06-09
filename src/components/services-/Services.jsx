@@ -2,12 +2,13 @@ import React from "react";
 import { servicesData } from "../../data/servicesData";
 import "./ServicesStyles.css"
 import { IoIosAddCircle } from "react-icons/io";
+import TitleSection from "../Reutilizable/TitleSection";
 
 const Services = () => {
   return (
     <section id="services" className="container-services">
       <div className="text-services">
-        <p>Services</p>
+        <TitleSection title={"services"}/>
         <h2>Feel Like Home With Best Medical Care</h2>
       </div>
       <div className="container-cards">

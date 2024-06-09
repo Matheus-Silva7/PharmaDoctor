@@ -11,15 +11,6 @@
   text-align: center;
 }
 
-.text-services p{
-  margin: 1rem auto;
-  width: 140px;
-  font-size: 1rem;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  border: solid 1px #CECECE;
-}
-
 .text-services h2{
   margin: 1rem auto;
   font-size: 2rem;
@@ -50,7 +41,12 @@
   gap: 5px;
 }
 
-@media screen and (max-width:900px) {
+.cardServices a:hover{
+  color: #0FE3AF;
+  transition: 0.3s;
+}
+
+@media screen and (max-width:950px) {
 
   .container-cards{
     grid-template-columns: 1fr 1fr;

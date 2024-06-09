@@ -7,7 +7,6 @@ import BannerPages from '../components/Banner/BannerPages'
 const Services = () => {
   return (
     <>
-    <NavTop />
     <NavBar />
     <BannerPages imgBanner={imgBanner} title={"Services"}/>
   </>

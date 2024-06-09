@@ -90,7 +90,7 @@ nav .call-action:active {
         top: 0;
         left: -100%;
         height: 100vh;
-        width: 85vw;
+        width: 100%;
         background-color: #F1F1F1;
         transition: 0.5s;
         z-index: 2;

@@ -8,7 +8,6 @@ import imgBanner from "../assets/banners/about-banner.jpg"
 const About = () => {
   return (
     <>
-      <NavTop />
       <NavBar />
       <BannerPages imgBanner={imgBanner} title={"About Us"}/>
     </>

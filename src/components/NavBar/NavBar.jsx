@@ -4,6 +4,7 @@ import "./NavBarStyles.css";
 import { Link } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
+import NavTop from "./NavTop";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -13,6 +14,9 @@ const NavBar = () => {
 
   return (
     <header>
+      <div className="top">
+        <NavTop />
+      </div>
       <nav>
         <div className="logo">
           <img src={iconPharma} alt="icon pharma" />

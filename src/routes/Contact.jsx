@@ -9,7 +9,6 @@ import BannerPages from '../components/Banner/BannerPages'
 const Contact = () => {
   return (
     <>
-      <NavTop />
       <NavBar />
       <BannerPages imgBanner={imgBanner} title={"Contact Us"}/>
     </>
