@@ -3,11 +3,11 @@
 .services-line {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .services-line .service-item {

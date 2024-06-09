@@ -1,0 +1,139 @@
+#specialCare {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+#specialCare .text-specialCare {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#specialCare .text-specialCare h2 {
+  font-size: 2rem;
+  max-width: 25ch;
+}
+
+#specialCare .text-specialCare p {
+  max-width: 50ch;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#specialCare .text-specialCare p span {
+  color: #0152A8;
+  font-weight: bold;
+}
+
+#specialCare .text-specialCare ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+#specialCare .text-specialCare ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#specialCare .images-doctor img{
+ height: 420px;
+ margin: 0.5rem;
+}
+
+#specialCare .images-doctor .info-doctor{
+text-align: center;
+color: #FFF;
+width: 180px;
+padding: 0.5rem;
+margin: 0 auto;
+background-color: #1C1C1C;
+}
+
+#specialCare .images-doctor .info-doctor h3{
+  font-size: 1rem;
+}
+
+#specialCare .images-doctor .info-doctor p{
+  font-size: 0.8rem;
+  color: #9A9A9A;
+}
+
+@media screen and (max-width: 1140px) {
+#specialCare {
+  gap: 0.5rem;
+}
+
+  #specialCare .images-doctor img{
+    height: 340px;
+  }
+
+  #specialCare .text-specialCare h2{
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+
+  #specialCare {
+    gap: 0.3rem;
+  }
+  #specialCare .images-doctor img{
+    height: 300px;
+  }
+
+  #specialCare .text-specialCare h2{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #specialCare{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #specialCare .text-specialCare h2{
+    max-width: 100%;
+    font-size: 1.7rem;
+  }
+
+  #specialCare .text-specialCare p{
+    max-width: 100%;
+    font-size: 1.1rem;
+  }
+  #specialCare .images-doctor img{
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #specialCare .images-doctor img{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #specialCare .images-doctor img{
+    height: 280px;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #specialCare .images-doctor img{
+    height: 400px;
+  }
+
+  #specialCare .images-doctor .doctor2{
+    display: none;
+  }
+}
