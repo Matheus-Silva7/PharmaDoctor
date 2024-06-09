@@ -19,8 +19,10 @@ const NavBar = () => {
       </div>
       <nav>
         <div className="logo">
-          <img src={iconPharma} alt="icon pharma" />
-          <p>Pharma</p>
+          <Link to="/">
+            <img src={iconPharma} alt="icon pharma" />
+            <p>Pharma</p>
+          </Link>
         </div>
         <ul className={active ? "nav-itens active" : "nav-itens"}>
           <li>

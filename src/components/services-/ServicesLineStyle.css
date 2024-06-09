@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merienda:wght@300..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+.services-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.services-line .service-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.services-line .service-item p {
+    color: #0152A8;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.services-line .service-item .monte-serrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.services-line .service-item .museo-moderno {
+    font-family: "MuseoModerno", sans-serif;
+}
+
+.services-line .service-item .merienda {
+    font-family: "Merienda", sans-serif;
+}
+
+.services-line .service-item .jetbrains {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.services-line .service-item .im-fell {
+    font-family: "IM Fell French Canon SC", serif;
+}
+
+@media screen and (max-width:370px) {
+    .services-line{
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .services-line .service-item p{
+        font-size: 1rem;
+    }
+}

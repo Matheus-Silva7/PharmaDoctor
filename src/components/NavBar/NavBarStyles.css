@@ -24,9 +24,10 @@ nav {
     gap: 5px;
 }
 
-nav .logo {
+nav .logo a {
     display: flex;
     align-items: center;
+    color: #000;
     font-size: 1.5rem;
    /*  z-index: 1; */
 }
