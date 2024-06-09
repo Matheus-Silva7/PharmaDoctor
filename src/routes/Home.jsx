@@ -5,6 +5,7 @@ import BannerMain from '../components/Banner/BannerMain'
 import Services from '../components/services-/Services'
 import BannerAbout from '../components/Banner/AboutBanner'
 import ServicesLine from '../components/services-/ServicesLine'
+import BannerBlue from '../components/Banner/BannerBlue'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Services/>
       <BannerAbout/>
       <ServicesLine/>
+      <BannerBlue classBtn={"green"} btnTxt={"Book an Appointment"} titleTxt={"Online consultations with Certified doctors"}/>
     </>
   )
 }

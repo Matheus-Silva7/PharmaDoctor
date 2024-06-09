@@ -1,0 +1,39 @@
+.banner-blue{
+    width: 100%;
+    height: 40vh;
+    padding: 2rem;
+}
+
+.banner-blue .content-banner{
+    background-image: url(../../assets/banners/banner-blue.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.banner-blue .content-banner h2{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 600;
+    max-width: 20ch;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .banner-blue{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner-blue .content-banner h2{
+        font-size: 1.5rem;
+    }
+}

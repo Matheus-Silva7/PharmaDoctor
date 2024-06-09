@@ -1,10 +1,10 @@
 import React from 'react'
 import "./ButtonStyles.css"
 
-const ButtonMain = ({textBtn}) => {
+const ButtonMain = ({textBtn, classN}) => {
   return (
     <>
-      <button className="b-start">{textBtn}</button>
+      <button className={`b-start ${classN}`}>{textBtn}</button>
     </>
   )
 }

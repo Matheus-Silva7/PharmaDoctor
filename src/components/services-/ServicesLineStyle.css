@@ -44,7 +44,7 @@
 
 @media screen and (max-width:370px) {
     .services-line{
-        padding: 1rem;
+        padding: 2rem 1rem;
         gap: 0.5rem;
     }
 

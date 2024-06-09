@@ -30,7 +30,7 @@ const BannerAbout = () => {
               <p>24 Hours Medical Service</p>
             </div>
           </div>
-          <Link to="/about"><ButtonMain textBtn={"More About Us"} /></Link>
+          <Link to="/about"><ButtonMain textBtn={"More About Us"} classN={"blue"} /></Link>
         </div>
       </div>
     </section>
