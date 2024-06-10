@@ -32,6 +32,19 @@
 .b-start.green:active{
     background-color: #0fe3ae94;
 }
+.b-start.white{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.b-start.white:hover{
+    background-color: #ffffffc2;
+    transition: 0.5s;
+}
+
+.b-start.white:active{
+    background-color: #ffffff93;
+}
 
 @media screen and (max-width:820px) {
     .b-start{

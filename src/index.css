@@ -19,3 +19,7 @@ p, li{
 a, button{
     font-family: "Inter", sans-serif;
 }
+
+section{
+    margin: 2% 0;
+}
