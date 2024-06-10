@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import iconPharma from "/icon-pharma.svg";
+
 import "./NavBarStyles.css";
 import { Link } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import NavTop from "./NavTop";
+import Logo from "./Logo";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -18,12 +19,7 @@ const NavBar = () => {
         <NavTop />
       </div>
       <nav>
-        <div className="logo">
-          <Link to="/">
-            <img src={iconPharma} alt="icon pharma" />
-            <p>Pharma</p>
-          </Link>
-        </div>
+        <Logo/>
         <ul className={active ? "nav-itens active" : "nav-itens"}>
           <li>
             <Link to="/">Home</Link>

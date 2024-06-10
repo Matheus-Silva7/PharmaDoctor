@@ -1,0 +1,155 @@
+footer{
+  width: 100%;
+  height: auto;
+}
+
+footer .footer-content{
+  background-color: #E5F2EF;
+  padding: 2rem;
+ width: 100%;
+}
+
+footer .footer-content .footer-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  max-width: 1440px;
+  margin: 2rem auto;
+}
+
+.footer-line .contacts{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-line .contacts .contact{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.footer-line .contacts .contact .icon{
+  background-color: #0FE3AF;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.footer-line .contacts .socials{
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-columns{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+  max-width: 1440px;
+  margin: 2rem auto;
+  justify-self: center;
+}
+
+.footer-columns h2{
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  max-width: 30ch;
+}
+
+.footer-columns .column{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-columns .column h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-columns .column a{
+  color: #000;
+}
+
+.footer-columns .column input[type="email"]{
+width: 300px;
+height: 50px;
+outline: none;
+padding: 1rem;
+border: 0;
+}
+
+.copy p{
+  text-align: center;
+  padding: 1rem;
+  color: #545454;
+}
+
+.copy p a{
+  color: #545454;
+  font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+  footer .footer-content .footer-line {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-columns h2{
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .footer-columns{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-columns h2{
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width:670px) {
+  .footer-line .contacts{
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-line .contacts .contact{
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer-columns h2{
+    font-size: 1.5rem;
+  }
+
+  .footer-columns .column p{
+    max-width: 25ch;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .footer-columns{
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width:340px) {
+
+  .footer-columns h2{
+    font-size: 1.3rem;
+  }
+
+  .footer-columns .column input[type="email"]{
+    width: 250px;
+  }
+}

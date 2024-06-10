@@ -9,6 +9,7 @@ import SpecialCare from '../components/specialCare/SpecialCare'
 import Feedback from '../components/feedbacks/Feedback'
 import BannerWhyChoose from '../components/Banner/BannerWhyChoose'
 import PresentationDoctors from '../components/Doctors/PresentationDoctors'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -20,9 +21,10 @@ const Home = () => {
       <ServicesLine/>
       <BannerBlue classBtn={"green"} btnTxt={"Book an Appointment"} titleTxt={"Online consultations with Certified doctors"}/>
       <SpecialCare/>
-      <Feedback />
       <BannerWhyChoose/>
       <PresentationDoctors/>
+      <Feedback />
+      <Footer/>
     </>
   )
 }
