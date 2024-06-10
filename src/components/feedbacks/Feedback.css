@@ -1,0 +1,149 @@
+.feedback-content {
+  max-width: 1440px;
+  padding: 4rem;
+  margin: 0 auto;
+}
+
+.feedback-content h2 {
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 2rem;
+  max-width: 25ch;
+}
+
+.card-Feedbacks {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #F1F1F1;
+}
+
+.card-Feedbacks .top-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: solid 1px #CDCDCD;
+  align-items: center;
+}
+
+.card-Feedbacks .top-card .info-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-Feedbacks .bottom-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-Feedbacks .bottom-card .stars {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.container-caroucel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-slide>div {
+  margin: 0 20px;
+}
+
+.slick-list {
+  margin: 0 -20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .card-Feedbacks {
+    width: 450px;
+  }
+
+  .container-caroucel {
+    width: 100%;
+  }
+
+  .slick-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slick-slide>div {
+    margin: 0 20px;
+  }
+
+  .slick-list {
+    margin: 0 -20px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+
+  .container-caroucel {
+    width: 100%;
+  }
+
+  .card-Feedbacks {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .card-Feedbacks {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .card-Feedbacks {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+
+  .card-Feedbacks {
+    width: 500px;
+  }
+
+}
+
+@media screen and (max-width: 730px) {
+  .card-Feedbacks {
+    width: 450px;
+  }
+
+  .feedback-content {
+    padding: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .card-Feedbacks {
+    width: 400px;
+  }
+
+  .card-Feedbacks .icon-feed {
+    display: none;
+  }
+
+  .feedback-content h2{
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card-Feedbacks {
+    width: 300px;
+  }
+
+  .feedback-content h2{
+    font-size: 1.5rem;
+  }
+}

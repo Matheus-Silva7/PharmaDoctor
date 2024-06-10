@@ -6,6 +6,7 @@ import BannerAbout from '../components/Banner/AboutBanner'
 import ServicesLine from '../components/services-/ServicesLine'
 import BannerBlue from '../components/Banner/BannerBlue'
 import SpecialCare from '../components/specialCare/SpecialCare'
+import Feedback from '../components/feedbacks/Feedback'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <ServicesLine/>
       <BannerBlue classBtn={"green"} btnTxt={"Book an Appointment"} titleTxt={"Online consultations with Certified doctors"}/>
       <SpecialCare/>
+      <Feedback />
     </>
   )
 }
