@@ -33,6 +33,11 @@
   font-weight: 600;
 }
 
+.banner-card p{
+  margin: 0;
+  width: auto;
+}
+
 .services {
   display: flex;
   justify-content: space-around;
