@@ -1,0 +1,86 @@
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: auto;
+    padding: 4rem;
+    background-color: #DCEDFE;
+}
+
+.form-content .form .line{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-content .form .line .formItem input{
+    width: 320px;
+    height: 40px;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+}
+
+.form-content .form .line .formItem input::placeholder,
+.form-content .form .formItem textarea::placeholder{
+    color: #B9B9B9;
+}
+
+.form-content .form .formItem textarea{
+    height: 300px;
+    width:100%;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+    resize: none;
+}
+
+@media screen and (max-width:820px){
+    .form-content .form .line{
+        flex-direction: column;
+    }
+
+    .form-content .form .line {
+        width: 100%;
+    }
+
+    .form-content .form{
+        width: 90%;
+    }
+
+    .form-content .form .line .formItem input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:560px){
+    .form-content .form{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:450px){
+    .form-content .form{
+        width: 95%;
+    }
+
+    .form-content .form{
+        padding: 1.3rem;
+    }
+}

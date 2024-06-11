@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6, label{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -16,10 +20,10 @@ p, li{
     font-family: "Lato", sans-serif;
 }
 
-a, button{
+a, button, form, textarea{
     font-family: "Inter", sans-serif;
 }
 
 section{
-    margin: 2% 0;
+    margin: 8% auto !important;
 }

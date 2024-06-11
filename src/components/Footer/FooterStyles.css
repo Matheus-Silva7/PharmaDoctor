@@ -70,6 +70,11 @@ gap: 1rem;
 
 .footer-columns .column a{
   color: #000;
+  font-size: 1.2rem;
+}
+
+.footer-columns .column a:hover{
+  color: #0152A8;
 }
 
 .footer-columns .column input[type="email"]{

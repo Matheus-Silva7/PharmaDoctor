@@ -2,6 +2,7 @@
     width: 100%;
     height: 70vh;
     padding: 0 2rem;
+    margin: 1% 0 !important;
 }
 
 .banner-container .banner-img {
