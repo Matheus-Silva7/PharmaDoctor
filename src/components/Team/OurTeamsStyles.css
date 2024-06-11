@@ -1,0 +1,9 @@
+.team-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.team-content .doctors .doctors-card{
+  background-color: #F1F1F1;
+}

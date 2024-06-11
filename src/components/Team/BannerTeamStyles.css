@@ -1,0 +1,79 @@
+.banner-team-content{
+  width: 100%;
+  height: 60vh;
+  background-color: #0152A8;
+  display: flex;
+}
+
+.banner-team-content .content-text {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-team-content .content-text h2{
+  font-size: 1.8rem;
+  color: #FFF;
+  max-width: 25ch;
+  font-weight: 600;
+  text-align: center;
+}
+
+.banner-team-content .content-text p{
+  margin: 0;
+  color: #FFF;
+  width: auto;
+}
+
+.banner-team-content .content-text .buttons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.banner-team-content img{
+  height: 100%;
+
+}
+
+@media screen and (max-width: 1260px) {
+  .banner-team-content{
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .banner-team-content{
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .banner-team-content{
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .banner-team-content img{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-team-content img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .banner-team-content .content-text .buttons{
+    flex-direction: column;
+  }
+}

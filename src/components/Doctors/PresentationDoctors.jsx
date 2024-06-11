@@ -24,6 +24,7 @@ const PresentationDoctors = () => {
             image={doctor.image}
             specialty={doctor.specialty}
             socialMidia={doctor.socialMidias}
+            colorbtn={"#FFF"}
           />
         ))}
       </div>

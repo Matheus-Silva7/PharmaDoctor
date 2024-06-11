@@ -1,6 +1,7 @@
 .banner-hour{
     max-width: 1440px;
     padding: 2rem;
+    margin: 0 auto;
     height: 50vh;
     display: flex;
     flex-direction: column;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DoctorsCard = ({ name, image, specialty, socialMidia }) => {
+const DoctorsCard = ({ name, image, specialty, socialMidia, colorbtn }) => {
   return (
     <div className="doctors-card">
       <img src={image} alt="doctor image" />
@@ -8,7 +8,7 @@ const DoctorsCard = ({ name, image, specialty, socialMidia }) => {
       <p>{specialty}</p>
       <ul>
         {Object.entries(socialMidia).map(([key, Icon], index) => (
-          <li key={index}><Icon size={20}/></li>
+          <li key={index}><Icon size={20} color={colorbtn}/></li>
         ))}
       </ul>
     </div>
