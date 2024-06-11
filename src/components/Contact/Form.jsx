@@ -1,5 +1,6 @@
 import React from "react";
 import "./FormStyles.css";
+import ButtonMain from "../Reutilizable/ButtonMain"
 
 const Form = () => {
   return (
@@ -38,6 +39,7 @@ const Form = () => {
           ></textarea>
         </div>
       </form>
+      <ButtonMain classN={"blue"} textBtn={"Send"}/>
     </section>
   );
 };
