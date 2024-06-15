@@ -44,8 +44,8 @@ const Footer = () => {
           <div className="column">
             <h3>Explore</h3>
             <Link to="/">Home</Link>
-            <Link to="/services">Services</Link>
             <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
             <Link to="/team">Team</Link>
             <Link to="/contact">Contact</Link>
           </div>

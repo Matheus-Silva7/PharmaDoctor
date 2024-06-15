@@ -4,10 +4,13 @@ import TitleSection from "../Reutilizable/TitleSection"
 import { GrLocation } from 'react-icons/gr'
 import { FiPhoneCall } from 'react-icons/fi'
 import { MdAlternateEmail } from 'react-icons/md'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 
 const ContactUs = () => {
   return (
+    <ScrollAnimation animateIn="fadeIn">
+
     <section id='contact' className='contact-content'>
       <TitleSection title={"CONTACT US"} />
       <h2>Get In Touch With Us!</h2>
@@ -32,6 +35,7 @@ const ContactUs = () => {
         </div>
       </div>
     </section>
+    </ScrollAnimation>
   )
 }
 

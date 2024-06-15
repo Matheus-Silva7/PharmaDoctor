@@ -3,9 +3,12 @@ import { servicesData } from "../../data/servicesData";
 import "./ServicesStyles.css"
 import { IoIosAddCircle } from "react-icons/io";
 import TitleSection from "../Reutilizable/TitleSection";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Services = () => {
   return (
+    <ScrollAnimation animateIn="fadeIn" duration={1.5}>
+
     <section id="services" className="container-services">
       <div className="text-services">
         <TitleSection title={"services"}/>
@@ -22,6 +25,7 @@ const Services = () => {
         ))}
       </div>
     </section>
+        </ScrollAnimation>
   );
 };
 
