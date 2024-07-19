@@ -13,6 +13,14 @@ const NavBar = () => {
     setActive(!active);
   };
 
+  {
+    if(active){
+      document.querySelector("body").style.overflow="hidden"
+    } else{
+       document.querySelector("body").style.overflow="initial"
+    }
+  }
+
   return (
     <header>
       <div className="top">
