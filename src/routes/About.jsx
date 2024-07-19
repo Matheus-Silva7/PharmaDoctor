@@ -6,7 +6,8 @@ import AboutUs from "../components/About/AboutUs";
 import BannerBlue from "../components/Banner/BannerBlue"
 import OurSucess from "../components/About/OurSucess";
 import Footer from "../components/Footer/Footer"
-
+  
+/* about */
 const About = () => {
   return (
     <>
